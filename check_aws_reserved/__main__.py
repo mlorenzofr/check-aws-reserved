@@ -62,12 +62,13 @@ def main():
     state = 3
     args = get_options()
     if args.crit > args.warn:
-        print('Critical threshold cannot be higher than warning')
+        print('Critical threshold cannot be higher than warning.')
     else:
         try:
             rsv_inst = get_reservations(args.profile)
         except Exception:
-            print('Error retrieving AWS info')
+            print('Error retrieving AWS info.\n',
+                  '\rCheck the connection or the config file and try again.')
         else:
             state = check_instances(rsv_inst, args.warn, args.crit)
     exit(state)

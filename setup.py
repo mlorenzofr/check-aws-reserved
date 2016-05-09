@@ -3,10 +3,10 @@
 
 from setuptools import setup
 
-setup(name='check_aws_reserved',
+setup(name='check-aws-reserved',
       version='0.1',
       description='Check the expiration time of AWS reserved instances',
-      url='',
+      url='https://github.com/mlorenzofr/check-aws-reserved',
       author='Manuel Lorenzo Frieiro',
       author_email='mlorenzofr@gmail.com',
       maintainer='Manuel Lorenzo Frieiro',
