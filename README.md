@@ -1,5 +1,5 @@
-This script retrieve the reserved instances expire time from AWS and check its status using the thresholds passed as parameters.
-The script is prepared to work with Nagios, and the return codes matches with the expected Nagios values.
+This script retrieves the reserved instances expire time from AWS and checks its status using the thresholds passed as parameters.
+The script is prepared to work with Nagios, and the return codes match with the expected Nagios values.
 
 The AWS credentials are taken using the [Named profiles in the AWS config file](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-multiple-profiles).
 
